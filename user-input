@@ -1,0 +1,11 @@
+#!/bin/bash
+# Script simple pour lire des informations de l'utilisateur
+
+echo "=== Script de saisie utilisateur ==="
+
+read -p "Quel est votre prénom ? " prenom
+read -p "Quel est votre âge ? " age
+
+echo ""
+echo "Bonjour $prenom, vous avez $age ans."
+echo "Merci d'avoir utilisé ce script !"
